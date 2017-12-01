@@ -6,5 +6,15 @@
   <h1>Customers Content Area</h1>
   <div>
       To change the content of this section, you will make edits to the customers.html file located in the /js/views folder.
+      
+      <!-- ko foreach: tabContent -->
+      <div data-bind="attr: {slot: slotname, id: contentid}" class="tab-panel">
+          <div class="oj-flex-item oj-sm-12 oj-sm-padding-3x-top">
+              <div data-bind="ojModule: {name: modulename, params: moduleparams}, attr: {id: 'moduleContent' + slotname}">                            
+              </div>
+          </div>
+      </div>
+      <!-- /ko -->
+
   </div>
 </div>

@@ -10,6 +10,7 @@ define(['ojs/ojcore', 'knockout', 'jquery'],
   
     function DashboardViewModel() {
       var self = this;
+      
       // Below are a subset of the ViewModel methods invoked by the ojModule binding
       // Please reference the ojModule jsDoc for additional available methods.
 

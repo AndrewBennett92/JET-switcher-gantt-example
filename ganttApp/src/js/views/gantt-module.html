@@ -1,0 +1,22 @@
+<div id="componentDemoContent" style="width: 1px; min-width: 100%;">
+    <oj-gantt data-bind="attr: {id: 'gantt' + customerId}" aria-label="Project Gantt"
+        start="[[projectStartDate]]"
+        end="[[projectEndDate]]"
+        gridlines='{
+          "horizontal": "visible",
+          "vertical": "visible"
+        }'
+        major-axis='{
+          "scale": "months",
+          "zoomOrder": ["quarters", "months", "weeks", "days"]
+        }'
+        minor-axis='{
+          "scale": "weeks",
+          "zoomOrder": ["quarters", "months", "weeks", "days"]
+        }'
+        rows="[[data]]"
+        style="width:100%;height:300px">
+    </oj-gantt>
+
+    
+  </div>

@@ -10,6 +10,23 @@ define(['ojs/ojcore', 'knockout', 'jquery'],
   
     function CustomerViewModel() {
       var self = this;
+      self.tabContent = ko.observableArray([{
+        contentid: 'tab1Content',
+        modulename: 'gantt-module',
+        moduleparams: {
+          customerId: '1'
+        },
+        slotname: 'tab1'
+      },
+      {
+        contentid: 'tab2Content',
+        modulename: 'gantt-module',
+        moduleparams: {
+          customerId: '2'
+        },
+        slotname: 'tab2'
+      }]);
+      
       // Below are a subset of the ViewModel methods invoked by the ojModule binding
       // Please reference the ojModule jsDoc for additional available methods.
 

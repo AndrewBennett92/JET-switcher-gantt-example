@@ -5,6 +5,21 @@
 <div class="oj-hybrid-padding">
   <h1>Incidents Content Area</h1>
   <div>
-      To change the content of this section, you will make edits to the incidents.html file located in the /js/views folder.
+      <oj-select-one id="basicSelect" value="{{currentSwitcher}}" style="max-width:20em">
+          <oj-option value="tab1">Tab 1</oj-option>
+          <oj-option value="tab2">Tab 2</oj-option>
+        </oj-select-one>
+        <br>
+      Switcher component
+      <oj-switcher id="workqueue-switcher-content" value="[[currentSwitcher]]" class="oj-web-applayout-max-width">
+        <!-- ko foreach: tabContent -->
+        <div data-bind="attr: {slot: slotname, id: contentid}" class="tab-panel">
+            <div class="oj-flex-item oj-sm-12 oj-sm-padding-3x-top">
+                <div data-bind="ojModule: {name: modulename, params: moduleparams}, attr: {id: 'moduleContent' + slotname}">                            
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+      </oj-switcher>
   </div>
 </div>

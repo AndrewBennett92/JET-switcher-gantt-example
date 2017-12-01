@@ -1,0 +1,116 @@
+[
+    {
+      "id": "r1",
+      "tasks": [
+        {
+          "id":"task1",
+          "start": "2016-01-04T17:00:00.000Z",
+          "end": "2016-01-10T17:00:00.000Z",
+          "label":"Label 1",
+          "labelPosition": "end"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "tasks": [
+        {
+          "id":"task2",
+          "start": "2016-01-10T17:00:00.000Z",
+          "end": "2016-01-24T17:00:00.000Z",
+          "label":"Label 2",
+          "labelPosition": "innerCenter"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "tasks": [
+        {
+          "id":"task3",
+          "start": "2016-01-25T17:00:00.000Z",
+          "end": "2016-02-05T17:00:00.000Z",
+          "label":"Label 3",
+          "labelPosition": "innerStart"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "tasks": [
+        {
+          "id":"task4",
+          "start": "2016-02-05T17:00:00.000Z",
+          "end": "2016-02-14T17:00:00.000Z",
+          "label":"Label 4",
+          "labelPosition": "innerEnd"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "tasks": [
+        {
+          "id":"task5",
+          "start": "2016-02-16T17:00:00.000Z",
+          "end": "2016-02-16T17:00:00.000Z",
+          "label":"Label 5"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "tasks": [
+        {
+          "id":"task6",
+          "start": "2016-02-19T17:00:00.000Z",
+          "end": "2016-02-22T17:00:00.000Z",
+          "label":"Label 6"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "tasks": [
+        {
+          "id":"task7",
+          "start": "2016-02-22T17:00:00.000Z",
+          "end": "2016-03-04T17:00:00.000Z",
+          "label":"Label 7"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "tasks": [
+        {
+          "id":"task8",
+          "start": "2016-03-04T17:00:00.000Z",
+          "end": "2016-03-08T17:00:00.000Z",
+          "label":"Label 8"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "tasks": [
+        {
+          "id":"task9",
+          "start": "2016-03-08T17:00:00.000Z",
+          "end": "2016-03-15T17:00:00.000Z",
+          "label":"Label 9"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "tasks": [
+        {
+          "id":"task10",
+          "start": "2016-03-15T17:00:00.000Z",
+          "end": "2016-03-20T17:00:00.000Z",
+          "label":"Label 10"
+        }
+      ]
+    }
+  ]
